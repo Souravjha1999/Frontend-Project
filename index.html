@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--====== Title ======-->
+    <title>Manage Wise - SaaS Product Landing Page</title>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function SubForm() {
+        $.ajax({
+          url: "https://api.apispreadsheets.com/data/eieaEbBG1VRxvqQJ/",
+          type: "post",
+          data: $("#myForm").serializeArray(),
+          success: function () {
+            alert(
+              "Call back request successfully added. You will soon get a callback from us!"
+            );
+          },
+          error: function () {
+            alert("There was an error. Please try again later");
+          },
+        });
+      }
+    </script>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="https://framerusercontent.com/images/H57U8acxeghRgv1iXiICEMRmffw.png" />
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+
+    <!--====== Tiny Slider css ======-->
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.ayroui.com/1.0/css/tiny-slider.css"
+    />
+
+    <!--====== gLightBox css ======-->
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Material Design Lite -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--====== NAVBAR NINE PART START ======-->
+    <div class="progress-container">
+      <div class="progress-bar bg-yellow" id="progressBar"></div>
+    </div>
+    <div class="main-header">
+      <section class="navbar-area navbar-nine pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="/">
+                  <img src="./assets/images/header/head-brand.webp" alt="" />
+                </a>
+                <!-- <h1 class="text-white fw-bold fs-2">ComplyKart</h1> -->
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNine"
+                  aria-controls="navbarNine"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarNine"
+                >
+                  <ul class="navbar-nav me-auto text-dark">
+                    <li class="nav-item">
+                      <a class="page-scroll text-dark" href="#hero-area"
+                        >Features</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll text-dark" href="#about"
+                        >Testimonial</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll text-dark" href="#services"
+                        >Pricing</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll text-dark" href="#blog">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll text-dark" href="#contact">Blog</a>
+                    </li>
+                    <li class="nav-item mb-3 nav-btn">
+                      <a class="border border-light"> Buy Template </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                  <a class="text-dark active fw-normal">                          
+                    <i class="lni lni-envelope text-primary"></i>  kamlesh@complykart.com
+                  </a>
+                </li> -->
+                  </ul>
+                </div>
+
+                <!-- <div class="navbar-btn d-none d-lg-inline-block">
+              <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"></i></a>
+            </div> -->
+              </nav>
+              <!-- navbar -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </section>
+
+      <!--====== NAVBAR NINE PART ENDS ======-->
+
+      <!--====== SIDEBAR PART START ======-->
+
+      <div class="sidebar-center">
+        <div class="sidebar-close">
+          <a class="close" href="#close"><i class="lni lni-close"></i></a>
+        </div>
+        <div class="sidebar-content">
+          <div class="sidebar-logo">
+            <a href="index.html"
+              ><img src="assets/images/logo.svg" alt="Logo"
+            /></a>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi
+            rerum iusto intro.
+          </p>
+          <!-- logo -->
+          <div class="sidebar-menu">
+            <h5 class="menu-title">Quick Links</h5>
+            <ul>
+              <li><a href="javascript:void(0)">About Us</a></li>
+              <li><a href="javascript:void(0)">Our Team</a></li>
+              <li><a href="javascript:void(0)">Latest News</a></li>
+              <li><a href="javascript:void(0)">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- menu -->
+          <div class="sidebar-social align-items-center justify-content-center">
+            <h5 class="social-title">Follow Us On</h5>
+            <ul>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="lni lni-facebook-filled"></i
+                ></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="lni lni-twitter-original"></i
+                ></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"
+                  ><i class="lni lni-linkedin-original"></i
+                ></a>
+              </li>
+              <li>
+                <a href="javascript:void(0)"><i class="lni lni-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar social -->
+        </div>
+        <!-- content -->
+      </div>
+      <div class="overlay-left"></div>
+
+      <!--====== SIDEBAR PART ENDS ======-->
+
+      <!-- Start header Area -->
+      <!-- End header Area -->
+
+      <!--======  Start Section Title One ======-->
+      <div class="section-title-seven" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 h-100">
+              <div class="text-center">
+                <div class="content">
+                  <span
+                    class="head-span text-primary border border-primary rounded border-1" data-aos="fade-up" data-aos-duration="3000"  data-aos-delay="1000"
+                    >👋 WELCOME TO MANAGE WISE!</span
+                  >
+                  <h1 class="fw-bold text-xl-center text-dark" data-aos="fade-up" data-aos-duration="2600" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
+                    Empower your business with
+                    <span class="head-highlight">Strategic</span> insights
+                  </h1>
+                  <p class="section-title-seven-p" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="800" data-aos-anchor-placement="top-bottom">
+                    Powerful management platform designed to streamline your
+                    business operations, boost productivity, and drive success
+                  </p>
+                  <ul class="section-title-seven-buttons mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
+                    <li class="me-3 mb-3 d-inline">
+                      <a class="btn icon-right primary-btn"> Get Started </a>
+                    </li>
+                    <li class="me-3 mb-3 d-inline">
+                      <a class="btn icon-right primary-btn-outline">
+                        Watch Demo
+                        <i class="lni lni-play"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="head-img">
+                    <img src="./assets/images/header/head-image.webp" alt=""    data-aos="flip-up" data-aos-duration="800" data-aos-delay="100"/>
+                  </div>
+                </div>
+                <div class="content">
+                  <span
+                    class="head-span text-primary border border-primary rounded border-1"
+                    >🔥PREMIER FEATURES</span
+                  >
+                  <h1 class="fw-bold text-xl-center text-dark second">
+                    Discover our product's
+                    <span class="head-highlight">Capabilities</span>
+                  </h1>
+                  <p class="section-title-seven-p">
+                    Don't settle for mediocrity - embrace the future of
+                    management with Manage Wise.
+                  </p>
+                  <div class="cards">
+                    <div class="row one">
+                      <div class="col">
+                        <div class="card card-star rounded-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-anchor-placement="top-bottom">
+                          <div class="card-body text-start">
+                            <h5 class="card-title">⭐️</h5>
+                            <p class="card-text">
+                              Boost productivity and streamline workflow with
+                              us. Enjoy our intuitive interface and robust
+                              features.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card rounded-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-anchor-placement="top-bottom">
+                          <img
+                            src="./assets/images/header/card-row-1-col-2.webp"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body text-start">
+                            <h5 class="card-title">Smart Task Management</h5>
+                            <p class="card-text text-dark">
+                              Say goodbye to chaos with our smart task
+                              management system
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row two my-5">
+                      <div class="col">
+                        <div class="card rounded-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="340" data-aos-anchor-placement="top-bottom">
+                          <img
+                            src="./assets/images/header/card-row-2-col-1.webp"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body text-start">
+                            <h5 class="card-title">Flexible Scheduling</h5>
+                            <p class="card-text text-dark">
+                              Stay productive with our flexible scheduling
+                              system
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card rounded-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="310" data-aos-anchor-placement="top-bottom">
+                          <img
+                            src="./assets/images/header/card-row-2-col-2.webp"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body text-start">
+                            <h5 class="card-title">Easy Communication</h5>
+                            <p class="card-text text-dark">
+                              Collaborate seamlessly with your team in real-time
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card rounded-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="280" data-aos-anchor-placement="top-bottom">
+                          <img
+                            src="./assets/images/header/card-row-2-col-3.webp"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body text-start">
+                            <h5 class="card-title">Analytics</h5>
+                            <p class="card-text text-dark">
+                              Gain valuable insights with our advanced analytics
+                              feature
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!--====== ABOUT TWO PART ENDS ======-->
+    </div>
+
+    <!--====== FEATURE ONE PART START ======-->
+    <section class="features-area features-one">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="section-title text-start">
+              <span
+                class="head-span text-primary border border-primary rounded border-1"
+                >🤩 AND MORE...</span
+              >
+              <h3 class="title">
+                Explore an array of features that elevate your
+                <span class="head-highlight">Productivity</span> to new heights
+              </h3>
+              <p>
+                Discover the tools that will revolutionize the way you manage
+                and optimize your operations
+              </p>
+              <!-- <p class="text">
+                 Stop wasting time and money designing and managing a website
+                 that doesn’t get results. Happiness guaranteed!
+              </p> -->
+            </div>
+            <!-- row -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="features-style-one text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-anchor-placement="top-bottom">
+              <div class="features-icon bg-primary">
+                <i class="lni lni-clipboard"></i>
+              </div>
+              <div class="features-content">
+                <h4 class="features-title">Cross-Platform Compatibility</h4>
+                <p class="text">
+                  Enjoy the flexibility of cross-platform compatibility. Our
+                  product works seamlessly across desktop, web, and mobile
+                  devices, allowing you to work from your preferred device.
+                </p>
+              </div>
+            </div>
+            <!-- single features -->
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="features-style-one text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="320" data-aos-anchor-placement="top-bottom">
+              <div class="features-icon bg-primary">
+                <i class="lni lni-alarm"></i>
+              </div>
+              <div class="features-content">
+                <h4 class="features-title">
+                  Stay Informed with Essential Notifications
+                </h4>
+                <p class="text">
+                  Automate support from first customer contact to closing the
+                  ticket. Drastically improve time to resolution.Automate
+                  support from first customer contact to closing the ticket.
+                </p>
+              </div>
+            </div>
+            <!-- single features -->
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="features-style-one text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="340" data-aos-anchor-placement="top-bottom">
+              <div class="features-icon bg-primary">🔥</div>
+              <div class="features-content">
+                <h4 class="features-title">
+                  Secure Data Encryption at all times
+                </h4>
+                <p class="text">
+                  Trust in our robust data encryption to keep your sensitive
+                  information safe and secure. Rest easy knowing your data is
+                  protected at all times.
+                </p>
+                <div class="features-btn rounded-buttons">
+                  <a
+                    class="btn primary-btn-outline rounded-full"
+                    href="javascript:void(0)"
+                  >
+                    KNOW MORE
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- single features -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="section-title-2">
+          <span
+            class="head-span text-primary border border-primary rounded border-1"
+            >🛠️ INTEGRATIONS</span
+          >
+          <h3 class="title">
+            Enable <span class="head-highlight">integration</span> with other
+            popular tools and platforms
+          </h3>
+          <p>
+            Seamlessly connect and amplify your workflow by enabling integration
+            with a diverse array of widely-used tools and platforms.
+          </p>
+          <img src="./assets/images/header/feature-dark-1.webp" alt="" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-anchor-placement="top-bottom" />
+        </div>
+      </div>
+      <!-- container -->
+    </section>
+    <!--====== FEATURE ONE PART ENDS ======-->
+
+    <section id="contact" class="contact-section pb-5 mb-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="contact-header col-xl-4">
+            <span
+              class="head-span text-primary border border-primary rounded border-1"
+              >🙋‍♀️ FAQ</span
+            >
+            <h3 class="title">
+              Need <span class="head-highlight">Answers?</span>
+            </h3>
+            <p>
+              Check out our most commonly asked questions below to find the
+              information you need.
+            </p>
+          </div>
+          <div class="col-xl-8">
+            <div class="contact-form-wrapper" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150" data-aos-anchor-placement="top-bottom">
+              <div class="row">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        How much time is needed for setting up a private limited
+                        company in India?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        If you have all the documents in order, it will take no
+                        longer than 15 days. However, this is dependent on the
+                        workload of the registrar.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        What are the rules for picking a name for a private
+                        limited company?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        The Registrar of Companies (RoC) across India expect
+                        applicant to follow a few naming guidelines. Some of
+                        them are subjective, which means that approval can
+                        depend on the opinion of the officer handling your
+                        application. However, the more closely you follow the
+                        rules listed below, the better your chances of approval.
+                        First, however, do ensure that your name is available.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingfour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsefour"
+                        aria-expanded="false"
+                        aria-controls="flush-collapsefour"
+                      >
+                        What documents are required to complete the process?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapsefour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingfour"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        All directors must provide identity and address proof,
+                        as well as a copy of the PAN Card (for Indian Nationals)
+                        and Passport (for foreign nationals). No-objection
+                        Certificate must be submitted by the owner of the
+                        registered office premises.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingsix">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsesix"
+                        aria-expanded="false"
+                        aria-controls="flush-collapsesix"
+                      >
+                        Does a private limited company have continuous
+                        existence?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapsesix"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingsix"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Yes, so long as the annual compliances are met, the
+                        private limited company will continue to exist. If you
+                        do not comply with the requirements, it will go dormant,
+                        until it is struck off the register altogether.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingseven">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseseven"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseseven"
+                      >
+                        How much does it cost to run a private limited company?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseseven"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingseven"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        The can be divided into four categories: cost of setting
+                        a private limited company, cost of accounting and
+                        auditing, cost of compliance and miscellaneous expenses.
+                        At the very minimum, you can expect to spend Rs. 40,000
+                        on all of these.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingeight">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseeight"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseeight"
+                      >
+                        Is it necessary to have a company’s books audited?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseeight"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingeight"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Yes, a private limited company must hire an auditor, no
+                        matter what its revenues. In fact, an auditor must be
+                        appointed within 30 days of incorporation. Compliance is
+                        important with a private limited company, given that
+                        penalties for non-compliance can run into lakhs or
+                        rupees and even lead to the blacklisting of directors.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 pt-5 pricing-table">
+          <div class="contact-header-2 text-center">
+            <span
+              class="head-span text-primary border border-primary rounded border-1"
+              >💲 PRICING</span
+            >
+            <h3 class="title">
+              Select your ideal
+              <span class="head-highlight">Pricing </span> plan
+            </h3>
+            <p>
+              At Manage Wise, we believe in providing you with pricing plans
+              that adapt to your unique needs.
+            </p>
+          </div>
+          <div class="pricing-options">
+            <div class="row">
+              <div class="col-lg-4 price-panel price-1">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="340" data-aos-anchor-placement="top-bottom">
+                  <div class="card-body">
+                    <span class="badge bg-white text-warning">FREE</span>
+                    <h5 class="card-title"><span class="price-amount">$0</span>/month</h5>
+                    <p class="card-text">
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Access to all basic features</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Reporting and analytics</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Up to 5 individual users</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Chat and email support</div>
+                    </p>
+                    <a href="#" class="btn btn-light">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 price-panel price-2">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="320" data-aos-anchor-placement="top-bottom">
+                  <div class="card-body">
+                    <span class="badge bg-white text-warning">STANDARD</span>
+                    <h5 class="card-title"><span class="price-amount">$25</span>/month</h5>
+                    <p class="card-text">
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Access to all basic features</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Reporting and analytics</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Up to 5 individual users</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Chat and email support</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> 3+ integrations</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Account performance reporting</div>
+                    </p>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 price-panel price-1">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-anchor-placement="top-bottom">
+                  <div class="card-body">
+                    <span class="badge bg-white text-warning">BUSINESS</span>
+                    <h5 class="card-title"><span class="price-amount">$42</span>/month</h5>
+                    <p class="card-text">
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Access to all basic features</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Reporting and analytics</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Up to 5 individual users</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> Chat and email support</div>
+                      <div class="fs-5 my-2 fst-normal"><i class="lni lni-checkmark text-success mx-1"></i> 3+ integrations</div>
+                    </p>
+                    <a href="#" class="btn btn-light">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-one">
+      <!--======  Start Section Title Seven ======-->
+      <div class="section-title-seven">
+        <div class="container">
+          <div class="row">
+              <div class="section-title">
+                <!-- <span> Testimonial </span> -->
+                <span
+                class="head-span text-primary border border-primary rounded border-1"
+                >🧡
+                TESTIMONIALS</span
+              >
+              <h3 class="title">
+                Hear from our 
+                <span class="head-highlight">Satisfied </span> clients
+              </h3>
+              <p>
+                Discover why our clients love working with us. Read their testimonials and learn how we has helped businesses.
+              </p>
+              </div>
+          </div>
+        </div>
+        <!-- container -->
+      </div>
+      <!--====== End Section Title Seven ======-->
+      <div class="container">
+        <div class="testimonial-one-wrapper">
+          <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12">
+              <div class="row testimonial-one-active">
+                <div class="col-lg-4">
+                  <div class="single-testimonial text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="https://cdn.ayroui.com/1.0/images/testimonial/author-1.jpg"
+                        alt="Author"
+                      />
+                      <div class="quote-icon">
+                        <i class="lni lni-quotation"></i>
+                      </div>
+                      <p class="mt-3">
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled"></i>
+                      </p>
+                    </div>
+                    <div class="testimonial-content">
+                      <p class="text">
+                        "Manage Wise transformed our team's productivity. The intuitive interface and powerful features have made a significant impact on our daily operations"
+                      </p>
+                      <h6 class="author-name">David</h6>
+                      <span class="sub-title">Freelancer</span>
+                    </div>
+                  </div>
+                  <!-- single testimonial -->
+                </div>
+                <div class="col-lg-4">
+                  <div class="single-testimonial text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="https://cdn.ayroui.com/1.0/images/testimonial/author-2.jpg"
+                        alt="Author"
+                      />
+                      <div class="quote-icon">
+                        <i class="lni lni-quotation"></i>
+                      </div>
+                      <p class="mt-3">
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                      </p>
+                    </div>
+                    <div class="testimonial-content">
+                      <p class="text">
+                        "The customer support team behind this product is exceptional. They have been incredibly responsive and helpful, addressing any questions or concerns promptly.
+                      </p>
+                      <h6 class="author-name">Alex</h6>
+                      <span class="sub-title">IT Manager</span>
+                    </div>
+                  </div>
+                  <!-- single testimonial -->
+                </div>
+                <div class="col-lg-4">
+                  <div class="single-testimonial text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="https://cdn.ayroui.com/1.0/images/testimonial/author-3.jpg"
+                        alt="Author"
+                      />
+                      <div class="quote-icon">
+                        <i class="lni lni-quotation"></i>
+                      </div>
+                      <p class="mt-3">
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled"></i>
+                      </p>
+                    </div>
+                    <div class="testimonial-content">
+                      <p class="text">
+                        "Using this product has been a game-changer for our team. The collaboration features and intuitive interface have greatly improved our productivity.
+                      </p>
+                      <h6 class="author-name">Emily</h6>
+                      <span class="sub-title">Art Director
+                      </span>
+                    </div>
+                  </div>
+                  <!-- single testimonial -->
+                </div>
+                <div class="col-lg-4">
+                  <div class="single-testimonial text-center">
+                    <div class="testimonial-image">
+                      <img
+                        src="https://cdn.ayroui.com/1.0/images/testimonial/author-4.jpg"
+                        alt="Author"
+                      />
+                      <div class="quote-icon">
+                        <i class="lni lni-quotation"></i>
+                      </div>
+                      <p class="mt-3">
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                        <i class="lni lni-star-filled text-yellow"></i>
+                      </p>
+                    </div>
+                    <div class="testimonial-content">
+                      <p class="text">
+                        "I can't imagine running my business without this product. The automation features have saved me hours of manual work, allowing me to focus on strategic tasks.
+                      </p>
+                      <h6 class="author-name">Sarah</h6>
+                      <span class="sub-title">Project Manager</span>
+                    </div>
+                  </div>
+                  <!-- single testimonial -->
+                </div>
+              </div>
+              <!-- row -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+      <div class="container">
+        <div class="new-section">
+          <div class="new-box"  data-aos="flip-down" data-aos-duration="800" data-aos-delay="100">
+            <div class="new-info">
+              <div class="section-title">
+                <!-- <span> Testimonial </span> -->
+                <span
+                class="head-span text-primary border border-primary rounded border-1"
+                >👋 DON'T MISS OUT</span
+              >
+              <h3 class="title">
+                Unleash your 
+                <span class="head-highlight">Potential </span> with us
+              </h3>
+              <p>
+                Join our community of ambitious individuals and organizations eager to make a difference.              
+              </p>
+              <a href="#" class="btn btn-primary">Try out now </i></a>
+              </div>
+            </div>
+            <div class="new-media">
+              <span class="new-msg"><span class="head-highlight">200+</span> Happy users</span>
+              <img src="./assets/images/header/new-media-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="new-footer">
+          <div class="row footer-1">
+            <div class="col-lg-2">
+              <img src="./assets/images/header/head-brand.webp" alt="">
+            </div>
+            <div class="col-lg-8"></div>
+            <div class="col-lg-2">
+              <p>Features</p>
+              <p>FAQ</p>
+              <p>Pricing</p>
+              <p>Testimonials</p>
+            </div>
+          </div>
+          <div class="row footer-2">
+            <div class="col-lg-3">© 2022 ManageWise, Inc.</div>
+            <div class="col-lg-7"></div>
+            <div class="col-lg-2 fs-2 d-flex flex-row justify-content-evenly">
+              <i class="lni lni-instagram-original"></i>
+              <i class="lni lni-twitter-original"></i>
+              <i class="lni lni-linkedin-original"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== service-area end ===== -->
+
+  
+    <!--====== TESTIMONIAL ONE PART START ======-->
+
+    <!--====== TESTIMONIAL ONE PART ENDS ======-->
+
+    <!-- ========================= contact-section start ========================= -->
+    <!-- ========================= contact-section end ========================= -->
+
+    <!-- START PRICING SECTION -->
+
+    <!-- <section class="pricing-area pricing-one call-action">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xxl-6 col-xl-7 col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="mb-3 fw-bold text-white">Our Pricing</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-lg-4 col-md-7 col-sm-9">
+          <div class="pricing-style-one">
+            <div class="pricing-header text-center">
+              <h5 class="sub-title">Government & incidental Fee</h5>
+              <span class="price">Rs. 5,000/-</span>
+              <h5 class="year">Per year</h5>
+            </div>
+            <div class="pricing-list">
+                 <ul>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Carefully crafted
+                       components
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Amazing page
+                       examples
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Super friendly
+                       support team
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Awesome Support
+                    </li>
+                 </ul>
+              </div>
+            <div class="pricing-btn rounded-buttons text-center">
+              <a class="btn primary-btn rounded-full" href="javascript:void(0)">
+                GET STARTED
+              </a>
+            </div>
+            <div class="bottom-shape">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112.35">
+                <defs>
+                  <style>
+                    .color-1 {
+                      fill: #2bdbdc;
+                      isolation: isolate;
+                    }
+
+                    .cls-1 {
+                      opacity: 0.1;
+                    }
+
+                    .cls-2 {
+                      opacity: 0.2;
+                    }
+
+                    .cls-3 {
+                      opacity: 0.4;
+                    }
+
+                    .cls-4 {
+                      opacity: 0.6;
+                    }
+                  </style>
+                </defs>
+                <title>bottom-part1</title>
+                <g>
+                  <g data-name="Group 747">
+                    <path data-name="Path 294" class="cls-1 color-1"
+                      d="M0,24.21c120-55.74,214.32,2.57,267,0S349.18,7.4,349.18,7.4V82.35H0Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 297" class="cls-2 color-1"
+                      d="M350,34.21c-120-55.74-214.32,2.57-267,0S.82,17.4.82,17.4V92.35H350Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 296" class="cls-3 color-1"
+                      d="M0,44.21c120-55.74,214.32,2.57,267,0S349.18,27.4,349.18,27.4v74.95H0Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 295" class="cls-4 color-1"
+                      d="M349.17,54.21c-120-55.74-214.32,2.57-267,0S0,37.4,0,37.4v74.95H349.17Z"
+                      transform="translate(0 0)" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-7 col-sm-9">
+          <div class="pricing-style-one">
+            <div class="pricing-header text-center">
+              <h5 class="sub-title">Professional Fee</h5>
+              <span class="price">Rs. 1,500/-</span>
+              <h5 class="year">Per year</h5>
+            </div>
+            <div class="pricing-list">
+                 <ul>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Carefully crafted
+                       components
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Amazing page
+                       examples
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Super friendly
+                       support team
+                    </li>
+                    <li>
+                       <i class="lni lni-checkmark-circle"></i> Awesome Support
+                    </li>
+                 </ul>
+              </div>
+            <div class="pricing-btn rounded-buttons text-center">
+              <a class="btn primary-btn rounded-full" href="javascript:void(0)">
+                GET STARTED
+              </a>
+            </div>
+            <div class="bottom-shape">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 112.35">
+                <defs>
+                  <style>
+                    .color-1 {
+                      fill: #2bdbdc;
+                      isolation: isolate;
+                    }
+
+                    .cls-1 {
+                      opacity: 0.1;
+                    }
+
+                    .cls-2 {
+                      opacity: 0.2;
+                    }
+
+                    .cls-3 {
+                      opacity: 0.4;
+                    }
+
+                    .cls-4 {
+                      opacity: 0.6;
+                    }
+                  </style>
+                </defs>
+                <title>bottom-part1</title>
+                <g>
+                  <g data-name="Group 747">
+                    <path data-name="Path 294" class="cls-1 color-1"
+                      d="M0,24.21c120-55.74,214.32,2.57,267,0S349.18,7.4,349.18,7.4V82.35H0Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 297" class="cls-2 color-1"
+                      d="M350,34.21c-120-55.74-214.32,2.57-267,0S.82,17.4.82,17.4V92.35H350Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 296" class="cls-3 color-1"
+                      d="M0,44.21c120-55.74,214.32,2.57,267,0S349.18,27.4,349.18,27.4v74.95H0Z"
+                      transform="translate(0 0)" />
+                    <path data-name="Path 295" class="cls-4 color-1"
+                      d="M349.17,54.21c-120-55.74-214.32,2.57-267,0S0,37.4,0,37.4v74.95H349.17Z"
+                      transform="translate(0 0)" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+    <!-- END PRICING SECTION -->
+
+    <!-- ========================= map-section end ========================= -->
+    <!-- <section class="map-section map-style-9">
+    <div class="map-container">
+      <object style="border:0; height: 500px; width: 100%;"
+        data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7887109309127!2d-77.44196278417968!3d38.95165507956235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiTiA3N8KwMjYnMjMuMiJX!5e0!3m2!1sen!2sbd!4v1545420879707"></object>
+    </div>
+    </div>
+  </section> -->
+    <!-- ========================= map-section end ========================= -->
+
+    <!-- Start Footer Area -->
+    <!--/ End Footer Area -->
+
+    <!-- <a href="#" class="scroll-top btn-hover">
+      <i class="lni lni-chevron-up"></i>
+    </a> -->
+
+    <!--====== js ======-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      //  Animations
+      AOS.init({
+        once: true,
+
+      });
+
+      //===== close navbar-collapse when a  clicked
+      let navbarTogglerNine = document.querySelector(
+        ".navbar-nine .navbar-toggler"
+      );
+      navbarTogglerNine.addEventListener("click", function () {
+        navbarTogglerNine.classList.toggle("active");
+      });
+
+      // ==== left sidebar toggle
+      let sidebarLeft = document.querySelector(".sidebar-left");
+      let overlayLeft = document.querySelector(".overlay-left");
+      let sidebarClose = document.querySelector(".sidebar-close .close");
+
+      overlayLeft.addEventListener("click", function () {
+        sidebarLeft.classList.toggle("open");
+        overlayLeft.classList.toggle("open");
+      });
+      sidebarClose.addEventListener("click", function () {
+        sidebarLeft.classList.remove("open");
+        overlayLeft.classList.remove("open");
+      });
+
+      // ===== navbar nine sideMenu
+      let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
+
+      sideMenuLeftNine.addEventListener("click", function () {
+        sidebarLeft.classList.add("open");
+        overlayLeft.classList.add("open");
+      });
+
+      //========= glightbox
+      GLightbox({
+        href: "https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM",
+        type: "video",
+        source: "youtube", //vimeo, youtube or local
+        width: 900,
+        autoplayVideos: true,
+      });
+    </script>
+    <!--====== Tiny Slider js ======-->
+    <script src="https://cdn.ayroui.com/1.0/js/tiny-slider.js"></script>
+    <script>
+      function progressBarScroll() {
+        let winScroll =
+            document.body.scrollTop || document.documentElement.scrollTop,
+          height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight,
+          scrolled = (winScroll / height) * 100;
+        document.getElementById("progressBar").style.width = scrolled + "%";
+      }
+
+      window.onscroll = function () {
+        progressBarScroll();
+      };
+    </script>
+
+    <script>
+      //======== tiny slider for testimonial-one
+      tns({
+        autoplay: true,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        gutter: 0,
+        container: ".testimonial-one-active",
+        center: true,
+        nav: true,
+        controls: false,
+        speed: 400,
+        controlsText: [
+          '<i class="lni lni-arrow-left-circle"></i>',
+          '<i class="lni lni-arrow-right-circle"></i>',
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+
+          992: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
